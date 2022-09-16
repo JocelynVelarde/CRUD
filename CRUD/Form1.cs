@@ -43,6 +43,7 @@ namespace CRUD
             bool respuesta = UsuarioLogico.Instancia.Guardar(objeto);
             if (respuesta)
             {
+                limpiar();
                 mostrar_usuarios();
             }
         }
@@ -51,6 +52,21 @@ namespace CRUD
         {
             dgvUsuario.DataSource = null;
             dgvUsuario.DataSource = UsuarioLogico.Instancia.Listar();
+        }
+
+        public void limpiar()
+        {
+            txtIdUsuario.Text = "";
+            txtNombreUsuario.Text = "";
+            txtContraseñaUsuario.Text = "";
+            txtCargoUsuario.Text = "";
+            txtNombreUsuario.Focus();
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            mostrar_usuarios();
         }
     }
 }
