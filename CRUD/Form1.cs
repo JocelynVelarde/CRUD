@@ -80,5 +80,22 @@ namespace CRUD
             txtNombreUsuario.Focus();
 
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            Usuario objeto = new Usuario()
+            {
+                Id = int.Parse(txtIdUsuario.Text),
+
+            };
+
+            bool respuesta = UsuarioLogico.Instancia.Eliminar(objeto);
+            if (respuesta)
+            {
+                limpiar();
+                mostrar_usuarios();
+            }
+        }
+    }
     }
 }
