@@ -32,6 +32,7 @@ namespace CRUD
             Usuario objeto = new Usuario()
             {
                 Id = int.Parse(txtIdUsuario.Text),
+               
                 Nombre = txtNombreUsuario.Text,
                 Contraseña = txtContraseñaUsuario.Text,
                 Cargo = txtCargoUsuario.Text

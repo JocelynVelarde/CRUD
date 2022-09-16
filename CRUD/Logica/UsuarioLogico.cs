@@ -131,5 +131,32 @@ namespace CRUD.Logica
             return respuesta;
         }
 
+        //METODO PARA ELIMINAR TODOS LOS DATOS DE UNA FILA 
+        public bool Eliminar(Usuario obj)
+        {
+            bool respuesta = true;
+
+            //ESTABLECE LA CONEXION EN LA CADENA
+            using (SQLiteConnection conexion = new SQLiteConnection(cadena))
+            {
+                //ACTUALIZA LA DB DE ACUERDO A LA NUEVA INFORMACION AGREGADA
+                conexion.Open();
+                string query = "delete from usuario where Id = @id";
+
+                //LOS OTROS PARAMETROS YA NO SON NECESARIOS YA QUE SOLO ESTAREMOS BORRANDO DONDE ID SEA DE USUARIO
+                SQLiteCommand cmd = new SQLiteCommand(query, conexion);
+                cmd.Parameters.Add(new SQLiteParameter("@id", obj.Id));
+                //SE LE INDICA QUE ES DE TIPO TEXTO
+                cmd.CommandType = System.Data.CommandType.Text;
+
+                //SI A LA TABLA NO SE LE AGREGAN ELEMENTOS EL NUMERO DE FILAS AFECTADA SERA MENOR A 1, POR LO TANTO LA RESPUESTA ES FALSA
+                if (cmd.ExecuteNonQuery() < 1)
+                {
+                    respuesta = false;
+                }
+            }
+            return respuesta;
+        }
+
     }
 }
