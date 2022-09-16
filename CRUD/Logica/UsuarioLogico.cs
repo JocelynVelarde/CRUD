@@ -101,5 +101,35 @@ namespace CRUD.Logica
 
             return lista; 
         }
+
+        public bool Editar(Usuario obj)
+        {
+            bool respuesta = true;
+
+            //ESTABLECE LA CONEXION EN LA CADENA
+            using (SQLiteConnection conexion = new SQLiteConnection(cadena))
+            {
+                //ACTUALIZA LA DB DE ACUERDO A LA NUEVA INFORMACION AGREGADA
+                conexion.Open();
+                string query = "Update Usuario set Nombre = @nombre ,Contraseña = @contraseña,Cargo = @cargo where Id = @id";
+
+                //SE AGREGAN PARAMETROS POR CADA FILA
+                SQLiteCommand cmd = new SQLiteCommand(query, conexion);
+                cmd.Parameters.Add(new SQLiteParameter("@nombre", obj.Nombre));
+                cmd.Parameters.Add(new SQLiteParameter("@contraseña", obj.Contraseña));
+                cmd.Parameters.Add(new SQLiteParameter("@cargo", obj.Cargo));
+                cmd.Parameters.Add(new SQLiteParameter("@id", obj.Id));
+                //SE LE INDICA QUE ES DE TIPO TEXTO
+                cmd.CommandType = System.Data.CommandType.Text;
+
+                //SI A LA TABLA NO SE LE AGREGAN ELEMENTOS EL NUMERO DE FILAS AFECTADA SERA MENOR A 1, POR LO TANTO LA RESPUESTA ES FALSA
+                if (cmd.ExecuteNonQuery() < 1)
+                {
+                    respuesta = false;
+                }
+            }
+            return respuesta;
+        }
+
     }
 }

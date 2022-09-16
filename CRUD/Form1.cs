@@ -18,6 +18,8 @@ namespace CRUD
         public Form1()
         {
             InitializeComponent();
+            mostrar_usuarios();
+            txtNombreUsuario.Focus();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -27,7 +29,21 @@ namespace CRUD
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Usuario objeto = new Usuario()
+            {
+                Id = int.Parse(txtIdUsuario.Text),
+                Nombre = txtNombreUsuario.Text,
+                Contraseña = txtContraseñaUsuario.Text,
+                Cargo = txtCargoUsuario.Text
 
+            };
+
+            bool respuesta = UsuarioLogico.Instancia.Editar(objeto);
+            if (respuesta)
+            {
+                limpiar();
+                mostrar_usuarios();
+            }
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -62,11 +78,6 @@ namespace CRUD
             txtCargoUsuario.Text = "";
             txtNombreUsuario.Focus();
 
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            mostrar_usuarios();
         }
     }
 }
