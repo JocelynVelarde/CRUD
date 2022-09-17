@@ -16,27 +16,61 @@ namespace CRUD
         public Form2()
         {
             InitializeComponent();
-        }
 
+        }
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-            if (usuario.Text.Trim() == "" && contraseña.Text.Trim() == "")
+           
+        }
+
+        private void usuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (usuario1.Text.Trim() == "" && contraseña1.Text.Trim() == "")
             {
                 MessageBox.Show("Campos Vacios", "Error");
             }
             else
             {
                 string query = "SELECT * FROM usuario WHERE Nombre= @nombre AND Contraseña = @contraseña";
-                SQLiteConnection conn = new SQLiteConnection("Data Source=PruebaDB.db;Version=3;");  
+                SQLiteConnection conn = new SQLiteConnection("Data Source=PruebaDB.db;Version=3;");
                 conn.Open();
                 SQLiteCommand cmd = new SQLiteCommand(query, conn);
-                cmd.Parameters.AddWithValue("@nombre", usuario.Text);
-                cmd.Parameters.AddWithValue("@contraseña", contraseña.Text);
+                cmd.Parameters.AddWithValue("@nombre", usuario1.Text);
+                cmd.Parameters.AddWithValue("@contraseña", contraseña1.Text);
                 SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
 
-                if(dt.Rows.Count > 0)
+                if (dt.Rows.Count > 0)
                 {
                     MessageBox.Show("Login Existoso");
                     Form3 form3 = new Form3();
