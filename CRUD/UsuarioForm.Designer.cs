@@ -310,7 +310,7 @@
             this.Id1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.Id1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Id1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Id1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Id1.FocusedState.BorderColor = System.Drawing.Color.Black;
             this.Id1.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.Id1.ForeColor = System.Drawing.Color.Black;
             this.Id1.HoverState.BorderColor = System.Drawing.Color.Black;
@@ -335,7 +335,7 @@
             this.Cargo1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.Cargo1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Cargo1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Cargo1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Cargo1.FocusedState.BorderColor = System.Drawing.Color.Black;
             this.Cargo1.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.Cargo1.ForeColor = System.Drawing.Color.Black;
             this.Cargo1.HoverState.BorderColor = System.Drawing.Color.Black;
@@ -359,7 +359,7 @@
             this.Contraseña2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.Contraseña2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Contraseña2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Contraseña2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Contraseña2.FocusedState.BorderColor = System.Drawing.Color.Black;
             this.Contraseña2.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.Contraseña2.ForeColor = System.Drawing.Color.Black;
             this.Contraseña2.HoverState.BorderColor = System.Drawing.Color.Black;
@@ -384,7 +384,7 @@
             this.Usuario2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.Usuario2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Usuario2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Usuario2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Usuario2.FocusedState.BorderColor = System.Drawing.Color.Black;
             this.Usuario2.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.Usuario2.ForeColor = System.Drawing.Color.Black;
             this.Usuario2.HoverState.BorderColor = System.Drawing.Color.Black;
