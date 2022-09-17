@@ -81,16 +81,26 @@
     <Compile Include="LogInForm.Designer.cs">
       <DependentUpon>LogInForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
     <Compile Include="Logica\UsuarioLogico.cs" />
     <Compile Include="Modelo\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\W-teramagofull.png" />
+    <None Include="Resources\output-onlinepngtools %286%29.png" />
+    <None Include="Resources\output-onlinepngtools %284%29.png" />
+    <None Include="Resources\Captura de pantalla 2022-09-17 130818.png" />
+    <None Include="Resources\output-onlinepngtools %283%29.png" />
+    <None Include="Resources\output-onlinepngtools %282%29.png" />
+    <None Include="Resources\1119640-middle.png" />
+    <None Include="Resources\output-onlinepngtools %281%291.png" />
+    <None Include="Resources\output-onlinepngtools %281%29.png" />
+    <None Include="Resources\output-onlinepngtools.png" />
     <None Include="Resources\textTeramago %281%29.png" />
     <None Include="Resources\textTeramago1.png" />
     <None Include="Resources\Captura de pantalla 2022-09-09 183409.png" />
@@ -105,8 +115,8 @@
     <EmbeddedResource Include="LogInForm.resx">
       <DependentUpon>LogInForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

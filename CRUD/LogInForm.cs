@@ -72,15 +72,33 @@ namespace CRUD
 
                 if (dt.Rows.Count > 0)
                 {
-                    MessageBox.Show("Login Existoso");
-                    Form3 form3 = new Form3();
-                    form3.ShowDialog();
+                    HomePage form3 = new HomePage();
+                    
+                    form3.Show();
+                    this.Hide();
+                    
+                   
                 }
                 else
                 {
                     MessageBox.Show("Error intenta de nuevo");
                 }
             }
+        }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ControlBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
