@@ -130,7 +130,7 @@ namespace CRUD
             this.usuario1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.usuario1.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.usuario1.ForeColor = System.Drawing.Color.Black;
-            this.usuario1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.usuario1.HoverState.BorderColor = System.Drawing.Color.Black;
             this.usuario1.Location = new System.Drawing.Point(700, 408);
             this.usuario1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.usuario1.Name = "usuario1";
@@ -154,7 +154,7 @@ namespace CRUD
             this.contraseña1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.contraseña1.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.contraseña1.ForeColor = System.Drawing.Color.Black;
-            this.contraseña1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.contraseña1.HoverState.BorderColor = System.Drawing.Color.Black;
             this.contraseña1.Location = new System.Drawing.Point(700, 490);
             this.contraseña1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.contraseña1.Name = "contraseña1";

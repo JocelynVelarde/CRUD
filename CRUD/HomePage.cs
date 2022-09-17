@@ -36,7 +36,7 @@ namespace CRUD
 
         private void guna2ImageButton2_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();
+            UsuarioForm frm = new UsuarioForm();
             
             frm.Show();
             this.Hide();
