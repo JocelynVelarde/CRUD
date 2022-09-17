@@ -11,9 +11,9 @@ using System.Data.SQLite;
 
 namespace CRUD
 {
-    public partial class Form2 : Form
+    public partial class LogInForm : Form
     {
-        public Form2()
+        public LogInForm()
         {
             InitializeComponent();
 
