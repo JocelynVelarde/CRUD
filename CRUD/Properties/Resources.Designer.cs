@@ -193,6 +193,26 @@ namespace CRUD.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Purple_Flat_Color_UI_Onboarding_Page_Simple_Desktop_UI_Prototype__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Purple Flat Color UI Onboarding Page Simple Desktop UI Prototype (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rttttt_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("rttttt-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap textTeramago {
             get {
                 object obj = ResourceManager.GetObject("textTeramago", resourceCulture);

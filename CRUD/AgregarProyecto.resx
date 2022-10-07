@@ -117,65 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="output-onlinepngtools (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\output-onlinepngtools (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="output-onlinepngtools (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\output-onlinepngtools (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="output-onlinepngtools" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\output-onlinepngtools.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="textTeramago (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\textTeramago (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura de pantalla 2022-09-09 183409" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2022-09-09 183409.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura de pantalla 2022-09-09 1325001" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2022-09-09 1325001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="output-onlinepngtools (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\output-onlinepngtools (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="whiteTeramago (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\whiteTeramago (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura de pantalla 2022-09-09 132500" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2022-09-09 132500.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="textTeramago" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\textTeramago.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="W-teramagofull" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\W-teramagofull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="textTeramago1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\textTeramago1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura de pantalla 2022-09-17 130818" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2022-09-17 130818.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="output-onlinepngtools (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\output-onlinepngtools (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="output-onlinepngtools (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\output-onlinepngtools (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="AAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1119640-middle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1119640-middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Purple Flat Color UI Onboarding Page Simple Desktop UI Prototype (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Purple Flat Color UI Onboarding Page Simple Desktop UI Prototype (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="output-onlinepngtools (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\output-onlinepngtools (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rttttt-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rttttt-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="guna2BorderlessForm1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>227, 17</value>
+  </metadata>
+  <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>370, 17</value>
+  </metadata>
 </root>

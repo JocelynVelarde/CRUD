@@ -49,6 +49,7 @@ namespace CRUD
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2DragControl4 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -306,5 +307,6 @@ namespace CRUD
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl4;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

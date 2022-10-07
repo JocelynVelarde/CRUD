@@ -69,6 +69,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgregarProyecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarProyecto.Designer.cs">
+      <DependentUpon>AgregarProyecto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logica\ProyectosLogico.cs" />
+    <Compile Include="Modelo\Proyectos.cs" />
     <Compile Include="UsuarioForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +99,11 @@
     <Compile Include="Modelo\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Proyectos.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\rttttt-removebg-preview %281%29.png" />
+    <None Include="Resources\Purple Flat Color UI Onboarding Page Simple Desktop UI Prototype %281%29.jpg" />
     <None Include="Resources\W-teramagofull.png" />
     <None Include="Resources\output-onlinepngtools %286%29.png" />
     <None Include="Resources\output-onlinepngtools %284%29.png" />
@@ -109,6 +122,9 @@
     <None Include="Resources\Captura de pantalla 2022-09-09 1325001.png" />
     <None Include="Resources\whiteTeramago %281%29.png" />
     <None Include="Resources\Captura de pantalla 2022-09-09 132500.png" />
+    <EmbeddedResource Include="AgregarProyecto.resx">
+      <DependentUpon>AgregarProyecto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UsuarioForm.resx">
       <DependentUpon>UsuarioForm.cs</DependentUpon>
     </EmbeddedResource>

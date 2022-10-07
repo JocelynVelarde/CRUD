@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRUD.Logica;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace CRUD
         public HomePage()
         {
             InitializeComponent();
+        }
+
+        public void mostrar_usuarios()
+        {
+            dgvProyecto.DataSource = null;
+            dgvProyecto.DataSource = ProyectosLogicos.Instancia.Listar();
         }
 
         private void btnShowUsuario_Click(object sender, EventArgs e)
@@ -53,6 +60,16 @@ namespace CRUD
 
             frm.Show();
             this.Hide();
+        }
+
+        private void dgvProyectos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
