@@ -1,5 +1,6 @@
 ﻿using CRUD.Logica;
 using CRUD.Modelo;
+using Guna.UI2.WinForms.Suite;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace CRUD
 {
@@ -31,9 +33,10 @@ namespace CRUD
             {
                 Id = int.Parse(IdProyecto.Text),
 
-                Concepto = ConceptoBx.Text,
-                Cantidad = CantidadBx.Text,
-                Proyecto = ProyectoBx.Text
+                Concepto = Conceptobx.Text,
+                FechaPago = FechaPagobx.Text,
+
+               
 
             };
 
@@ -51,9 +54,21 @@ namespace CRUD
             {
                 Id = int.Parse(IdProyecto.Text),
 
-                Concepto = ConceptoBx.Text,
-                Cantidad = CantidadBx.Text,
-                Proyecto = ProyectoBx.Text
+                Concepto = Conceptobx.Text,
+                FechaPago = FechaPagobx.Text,
+                Importe = Importebx.Text,
+                Remision = Remisionbx.Text,
+                Factura = Facturabx.Text,
+                MetodoPago = MetodoPagobx.Text,
+                Descripcion = Descripcionbx.Text,
+                Status = Statusbx.Text,
+                Nombre = Nombrebx.Text,
+                Fraccionamiento = Fraccionamientobx.Text,
+                Direccion = Direccionbx.Text,
+                PrecioVenta = PrecioVentabx.Text,
+                Ingresos = Ingresosbx.Text,
+                Saldo = Saldobx.Text,
+
 
             };
 
@@ -76,10 +91,20 @@ namespace CRUD
         public void limpiar()
         {
             IdProyecto.Text = "";
-            ConceptoBx.Text = "";
-            CantidadBx.Text = "";
-            ProyectoBx.Text = "";
-            ProyectoBx.Focus();
+            Conceptobx.Text = "";
+            FechaPagobx.Text = "";
+            Importebx.Text = "";
+            Remisionbx.Text = "";
+            Facturabx.Text = "";
+            MetodoPagobx.Text = "";
+            Descripcionbx.Text = "";
+            Statusbx.Text = "";
+            Nombrebx.Text = "";
+            Fraccionamientobx.Text = "";
+            Direccionbx.Text = "";
+            PrecioVentabx.Text = "";
+            Ingresosbx.Text = "";
+            Saldobx.Text = "";
 
         }
 
@@ -97,6 +122,33 @@ namespace CRUD
                 limpiar();
                 mostrar_proyectos();
             }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            VerProyecto frm = new VerProyecto();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            HomePage frm = new HomePage();
+            frm.Show();
+            this.Hide();
+
+        }
+
+        private void guna2ImageButton2_Click(object sender, EventArgs e)
+        {
+            UsuarioForm frm = new UsuarioForm();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void dgvProyecto_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

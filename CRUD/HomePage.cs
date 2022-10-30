@@ -20,8 +20,7 @@ namespace CRUD
 
         public void mostrar_usuarios()
         {
-            dgvProyecto.DataSource = null;
-            dgvProyecto.DataSource = ProyectosLogicos.Instancia.Listar();
+            
         }
 
         private void btnShowUsuario_Click(object sender, EventArgs e)
@@ -70,6 +69,13 @@ namespace CRUD
         private void guna2ImageButton4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            AgregarProyecto frm = new AgregarProyecto();
+            frm.Show();
+            this.Hide();
         }
     }
 }

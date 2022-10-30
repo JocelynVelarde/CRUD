@@ -16,7 +16,7 @@ namespace CRUD
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AgregarProyecto());
+            Application.Run(new LogInForm());
         }
     }
 }

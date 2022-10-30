@@ -47,13 +47,26 @@ namespace CRUD.Logica
             {
                 //HACE LA CONSULTA EN LA TABLA USUARIOS CON LOS VALORES ESPECIFICADOS
                 conexion.Open();
-                string query = "insert into Ingreso(Concepto,Cantidad,Proyecto) values (@concepto,@cantidad,@proyecto)";
+                string query = "insert into Ingreso(Id, FechaPago, Importe, Remision, Factura, MetodoPago, Descripcion, Status, Concepto, Nombre, Fraccionamiento, Direccion, PrecioVenta, Ingresos, Saldo) values (@id, @fechaPago, @importe, @remision, @factura, @metodoPago, @descripcion, @status, @concepto, @nombre, @fraccionamiento, @direccion, @precioVenta, @ingresos, @saldo)";
 
                 //SE AGREGAN PARAMETROS POR CADA FILA
                 SQLiteCommand cmd = new SQLiteCommand(query, conexion);
+                cmd.Parameters.Add(new SQLiteParameter("@id", obj.Id));
                 cmd.Parameters.Add(new SQLiteParameter("@concepto", obj.Concepto));
-                cmd.Parameters.Add(new SQLiteParameter("@cantidad", obj.Cantidad));
-                cmd.Parameters.Add(new SQLiteParameter("@proyecto", obj.Proyecto));
+                cmd.Parameters.Add(new SQLiteParameter("@fechapago", obj.FechaPago));
+                cmd.Parameters.Add(new SQLiteParameter("@importe", obj.Importe));
+                cmd.Parameters.Add(new SQLiteParameter("@remision", obj.Remision));
+                cmd.Parameters.Add(new SQLiteParameter("@factura", obj.Factura));
+                cmd.Parameters.Add(new SQLiteParameter("@metodoPago", obj.MetodoPago));
+                cmd.Parameters.Add(new SQLiteParameter("@descripcion", obj.Descripcion));
+                cmd.Parameters.Add(new SQLiteParameter("@status", obj.Status));
+                cmd.Parameters.Add(new SQLiteParameter("@importe", obj.Importe));
+                cmd.Parameters.Add(new SQLiteParameter("@nombre", obj.Nombre));
+                cmd.Parameters.Add(new SQLiteParameter("@fraccionamiento", obj.Fraccionamiento));
+                cmd.Parameters.Add(new SQLiteParameter("@direccion", obj.Direccion));
+                cmd.Parameters.Add(new SQLiteParameter("@precioVenta", obj.PrecioVenta));
+                cmd.Parameters.Add(new SQLiteParameter("@ingresos", obj.Ingresos));
+                cmd.Parameters.Add(new SQLiteParameter("@saldo", obj.Saldo));
                 //SE LE INDICA QUE ES DE TIPO TEXTO
                 cmd.CommandType = System.Data.CommandType.Text;
 
@@ -76,7 +89,7 @@ namespace CRUD.Logica
             {
                 //HACE LA CONSULTA EN LA TABLA USUARIOS CON LOS VALORES ESPECIFICADOS
                 conexion.Open();
-                string query = "select Id,Concepto,Cantidad,Proyecto from Ingreso";
+                string query = "select Id, FechaPago, Importe, Remision, Factura, MetodoPago, Descripcion, Status, Concepto, Nombre, Fraccionamiento, Direccion, PrecioVenta, Ingresos, Saldo";
 
                 //SE AGREGAN PARAMETROS POR CADA FILA
                 SQLiteCommand cmd = new SQLiteCommand(query, conexion);
@@ -92,8 +105,20 @@ namespace CRUD.Logica
                         {
                             Id = int.Parse(dr["Id"].ToString()),
                             Concepto = dr["Concepto"].ToString(),
-                            Cantidad = dr["Cantidad"].ToString(),
-                            Proyecto = dr["Proyecto"].ToString(),
+                            FechaPago = dr["FechaPago"].ToString(),
+                            Importe = dr["Importe"].ToString(),
+                            Remision = dr["Remision"].ToString(),
+                            Factura = dr["Factura"].ToString(),
+                            MetodoPago = dr["MetodoPago"].ToString(),
+                            Descripcion = dr["Descripcion"].ToString(),
+                            Status = dr["Status"].ToString(),
+                            Nombre = dr["Nombre"].ToString(),
+                            Fraccionamiento = dr["Fraccionamiento"].ToString(),
+                            Direccion = dr["Direccion"].ToString(),
+                            PrecioVenta = dr["PrecioVenta"].ToString(),
+                            Ingresos = dr["Ingresos"].ToString(),
+                            Saldo = dr["Saldo"].ToString(),
+
                         });
                         }
                     }
@@ -111,14 +136,26 @@ namespace CRUD.Logica
             {
                 //ACTUALIZA LA DB DE ACUERDO A LA NUEVA INFORMACION AGREGADA
                 conexion.Open();
-                string query = "Update Ingreso set Concepto = @concepto ,Cantidad = @cantidad,Proyecto = @proyecto where Id = @id";
+                string query = "Update Ingreso set FechaPago = @fechaPago, Importe = @importe, Remision = @remision, Factura = @factura, MetodoPago = @metodoPago, Descripcion = @descripcion, Status = @status, Concepto = @concepto, Nombre = @nombre, Fraccionamiento = @fraccionamiento, Direccion = @direccion, PrecioVenta = @precioVenta, Ingresos = @ingresos, Saldo = @saldo where Id = @id";
 
                 //SE AGREGAN PARAMETROS POR CADA FILA
                 SQLiteCommand cmd = new SQLiteCommand(query, conexion);
-                cmd.Parameters.Add(new SQLiteParameter("@nombre", obj.Concepto));
-                cmd.Parameters.Add(new SQLiteParameter("@contraseña", obj.Cantidad));
-                cmd.Parameters.Add(new SQLiteParameter("@cargo", obj.Proyecto));
                 cmd.Parameters.Add(new SQLiteParameter("@id", obj.Id));
+                cmd.Parameters.Add(new SQLiteParameter("@concepto", obj.Concepto));
+                cmd.Parameters.Add(new SQLiteParameter("@fechapago", obj.FechaPago));
+                cmd.Parameters.Add(new SQLiteParameter("@importe", obj.Importe));
+                cmd.Parameters.Add(new SQLiteParameter("@remision", obj.Remision));
+                cmd.Parameters.Add(new SQLiteParameter("@factura", obj.Factura));
+                cmd.Parameters.Add(new SQLiteParameter("@metodoPago", obj.MetodoPago));
+                cmd.Parameters.Add(new SQLiteParameter("@descripcion", obj.Descripcion));
+                cmd.Parameters.Add(new SQLiteParameter("@status", obj.Status));
+                cmd.Parameters.Add(new SQLiteParameter("@importe", obj.Importe));
+                cmd.Parameters.Add(new SQLiteParameter("@nombre", obj.Nombre));
+                cmd.Parameters.Add(new SQLiteParameter("@fraccionamiento", obj.Fraccionamiento));
+                cmd.Parameters.Add(new SQLiteParameter("@direccion", obj.Direccion));
+                cmd.Parameters.Add(new SQLiteParameter("@precioVenta", obj.PrecioVenta));
+                cmd.Parameters.Add(new SQLiteParameter("@ingresos", obj.Ingresos));
+                cmd.Parameters.Add(new SQLiteParameter("@saldo", obj.Saldo));
                 //SE LE INDICA QUE ES DE TIPO TEXTO
                 cmd.CommandType = System.Data.CommandType.Text;
 
@@ -141,7 +178,7 @@ namespace CRUD.Logica
             {
                 //ACTUALIZA LA DB DE ACUERDO A LA NUEVA INFORMACION AGREGADA
                 conexion.Open();
-                string query = "delete from ingreso where Id = @id";
+                string query = "delete from Ingreso where Id = @id";
 
                 //LOS OTROS PARAMETROS YA NO SON NECESARIOS YA QUE SOLO ESTAREMOS BORRANDO DONDE ID SEA DE USUARIO
                 SQLiteCommand cmd = new SQLiteCommand(query, conexion);

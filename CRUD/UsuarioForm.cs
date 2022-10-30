@@ -179,6 +179,11 @@ namespace CRUD
         {
 
         }
+
+        private void dgvUsuario_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
     }
     
