@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JocelynVelarde/Portal-Balance-General">
-    <img src="Portal-Balance-General/CRUD/Resources/whiteTeramago (1).png" alt="Logo" width="80" height="80">
+    <img src="Resources/whiteTeramago (1).png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Portal Balance General</h3>
