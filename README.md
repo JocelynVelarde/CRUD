@@ -154,7 +154,7 @@ Project Link: [https://github.com/JocelynVelarde/Portal-Balance-General](https:/
 [issues-shield]: https://img.shields.io/github/issues/JocelynVelarde/Portal-Balance-General.svg?style=for-the-badge
 [issues-url]: https://github.com/JocelynVelarde/Portal-Balance-General/issues
 [license-shield]: https://img.shields.io/badge/LICENSE-MIT-pink
-[license-url]: https://github.com/JocelynVelarde/Portal-Balance-General/blob/master/LICENSE.txt
+[license-url]: https://github.com/JocelynVelarde/Portal-Balance-General/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/JocelynVelarde
 [Svelte.dev]: https://img.shields.io/badge/SQLite-%20%20-yellow
