@@ -14,7 +14,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/JocelynVelarde/Portal-Balance-General">
-    <img src="Resources/whiteTeramago(1).png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Portal Balance General</h3>
@@ -62,8 +61,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This is the final proyect for the internship at FARCOM, it is great to manage company information such as clients purchases and accounts
 
