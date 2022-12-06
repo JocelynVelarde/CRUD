@@ -35,8 +35,24 @@ namespace CRUD
 
                 Concepto = Conceptobx.Text,
                 FechaPago = FechaPagobx.Text,
+                Nombre = Nombrebx.Text,
+                Fraccionamiento = Fraccionamientobx.Text, 
+                Direccion = Direccionbx.Text,
+                PrecioVenta = PrecioVentabx.Text,
+                Ingresos = Ingresosbx.Text,
+                Saldo = Saldobx.Text,
+                Importe = Importebx.Text,
+                Remision = Remisionbx.Text,
+                Factura = Facturabx.Text,
+                MetodoPago = MetodoPagobx.Text, 
+                Descripcion = Descripcionbx.Text,
+                Status = Statusbx.Text,
 
-               
+
+
+
+
+
 
             };
 
@@ -52,7 +68,7 @@ namespace CRUD
         {
             Proyectos objeto = new Proyectos()
             {
-                Id = int.Parse(IdProyecto.Text),
+                
 
                 Concepto = Conceptobx.Text,
                 FechaPago = FechaPagobx.Text,
@@ -105,9 +121,9 @@ namespace CRUD
             PrecioVentabx.Text = "";
             Ingresosbx.Text = "";
             Saldobx.Text = "";
+            
 
         }
-
         private void btnBorrarP_Click(object sender, EventArgs e)
         {
             Proyectos objeto = new Proyectos()
@@ -149,6 +165,13 @@ namespace CRUD
         private void dgvProyecto_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void guna2ImageButton3_Click(object sender, EventArgs e)
+        {
+            LogInForm frm = new LogInForm();
+            frm.Show();
+            this.Hide();
         }
     }
 }

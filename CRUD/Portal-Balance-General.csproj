@@ -69,46 +69,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AgregarProyecto.cs">
+    <Compile Include="Pantallas\AgregarProyecto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AgregarProyecto.Designer.cs">
+    <Compile Include="Pantallas\AgregarProyecto.Designer.cs">
       <DependentUpon>AgregarProyecto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Logica\ProyectosLogico.cs" />
+    <Compile Include="Logica\ProyectosLogicos.cs" />
     <Compile Include="Modelo\Proyectos.cs" />
-    <Compile Include="UsuarioForm.cs">
+    <Compile Include="Pantallas\UsuarioForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UsuarioForm.Designer.cs">
+    <Compile Include="Pantallas\UsuarioForm.Designer.cs">
       <DependentUpon>UsuarioForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LogInForm.cs">
+    <Compile Include="Pantallas\LogInForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LogInForm.Designer.cs">
+    <Compile Include="Pantallas\LogInForm.Designer.cs">
       <DependentUpon>LogInForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="HomePage.cs">
+    <Compile Include="Pantallas\HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HomePage.Designer.cs">
+    <Compile Include="Pantallas\HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
     <Compile Include="Logica\UsuarioLogico.cs" />
     <Compile Include="Modelo\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VerProyecto.cs">
+    <Compile Include="Pantallas\VerProyecto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VerProyecto.Designer.cs">
+    <Compile Include="Pantallas\VerProyecto.Designer.cs">
       <DependentUpon>VerProyecto.cs</DependentUpon>
     </Compile>
-    <Content Include="Proyectos.db">
+    <Content Include="DataBases\Proyectos.db">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <EmbeddedResource Include="VerProyecto.resx">
+    <EmbeddedResource Include="Pantallas\VerProyecto.resx">
       <DependentUpon>VerProyecto.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Resources\rttttt-removebg-preview %281%29.png" />
@@ -131,16 +131,16 @@
     <None Include="Resources\Captura de pantalla 2022-09-09 1325001.png" />
     <None Include="Resources\whiteTeramago %281%29.png" />
     <None Include="Resources\Captura de pantalla 2022-09-09 132500.png" />
-    <EmbeddedResource Include="AgregarProyecto.resx">
+    <EmbeddedResource Include="Pantallas\AgregarProyecto.resx">
       <DependentUpon>AgregarProyecto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UsuarioForm.resx">
+    <EmbeddedResource Include="Pantallas\UsuarioForm.resx">
       <DependentUpon>UsuarioForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LogInForm.resx">
+    <EmbeddedResource Include="Pantallas\LogInForm.resx">
       <DependentUpon>LogInForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomePage.resx">
+    <EmbeddedResource Include="Pantallas\HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -163,7 +163,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Content Include="PruebaDB.db">
+    <Content Include="DataBases\PruebaDB.db">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

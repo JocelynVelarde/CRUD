@@ -34,7 +34,12 @@
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.IdProyecto = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnEditarP = new Guna.UI2.WinForms.Guna2Button();
@@ -55,20 +60,15 @@
             this.Statusbx = new Guna.UI2.WinForms.Guna2TextBox();
             this.Conceptobx = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.dgvProyecto = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProyecto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,6 +112,25 @@
             this.guna2ControlBox1.Size = new System.Drawing.Size(23, 22);
             this.guna2ControlBox1.TabIndex = 17;
             // 
+            // guna2ImageButton3
+            // 
+            this.guna2ImageButton3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton3.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton3.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.guna2ImageButton3.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.guna2ImageButton3.Image = global::CRUD.Properties.Resources.output_onlinepngtools__4_;
+            this.guna2ImageButton3.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton3.ImageRotate = 0F;
+            this.guna2ImageButton3.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton3.IndicateFocus = true;
+            this.guna2ImageButton3.Location = new System.Drawing.Point(1034, 65);
+            this.guna2ImageButton3.Name = "guna2ImageButton3";
+            this.guna2ImageButton3.PressedState.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton3.Size = new System.Drawing.Size(41, 37);
+            this.guna2ImageButton3.TabIndex = 12;
+            this.guna2ImageButton3.UseTransparentBackground = true;
+            this.guna2ImageButton3.Click += new System.EventHandler(this.guna2ImageButton3_Click);
+            // 
             // guna2ControlBox2
             // 
             this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -124,6 +143,69 @@
             this.guna2ControlBox2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(110)))), ((int)(((byte)(58)))));
             this.guna2ControlBox2.Size = new System.Drawing.Size(26, 22);
             this.guna2ControlBox2.TabIndex = 16;
+            // 
+            // guna2ImageButton2
+            // 
+            this.guna2ImageButton2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton2.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton2.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.guna2ImageButton2.Image = global::CRUD.Properties.Resources.Captura_de_pantalla_2022_09_17_130818;
+            this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton2.ImageRotate = 0F;
+            this.guna2ImageButton2.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton2.IndicateFocus = true;
+            this.guna2ImageButton2.Location = new System.Drawing.Point(59, 65);
+            this.guna2ImageButton2.Name = "guna2ImageButton2";
+            this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton2.Size = new System.Drawing.Size(46, 47);
+            this.guna2ImageButton2.TabIndex = 11;
+            this.guna2ImageButton2.UseTransparentBackground = true;
+            this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.Image = global::CRUD.Properties.Resources.W_teramagofull;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(398, 28);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(267, 61);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox3.TabIndex = 15;
+            this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(110)))), ((int)(((byte)(58)))));
+            this.guna2PictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.guna2PictureBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(110)))), ((int)(((byte)(58)))));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(0, 118);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(1087, 10);
+            this.guna2PictureBox2.TabIndex = 14;
+            this.guna2PictureBox2.TabStop = false;
+            // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.guna2ImageButton1.Image = global::CRUD.Properties.Resources.output_onlinepngtools__3_;
+            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton1.IndicateFocus = true;
+            this.guna2ImageButton1.Location = new System.Drawing.Point(12, 65);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(41, 37);
+            this.guna2ImageButton1.TabIndex = 7;
+            this.guna2ImageButton1.UseTransparentBackground = true;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // guna2CustomGradientPanel1
             // 
@@ -147,7 +229,7 @@
             this.IdProyecto.ForeColor = System.Drawing.Color.Black;
             this.IdProyecto.HoverState.BorderColor = System.Drawing.Color.Black;
             this.IdProyecto.Location = new System.Drawing.Point(12, 198);
-            this.IdProyecto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IdProyecto.Margin = new System.Windows.Forms.Padding(4);
             this.IdProyecto.Name = "IdProyecto";
             this.IdProyecto.PasswordChar = '\0';
             this.IdProyecto.PlaceholderText = "ID";
@@ -523,87 +605,6 @@
             this.guna2PictureBox4.TabStop = false;
             this.guna2PictureBox4.UseTransparentBackground = true;
             // 
-            // guna2ImageButton3
-            // 
-            this.guna2ImageButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageButton3.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton3.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.guna2ImageButton3.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2ImageButton3.Image = global::CRUD.Properties.Resources.output_onlinepngtools__4_;
-            this.guna2ImageButton3.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton3.ImageRotate = 0F;
-            this.guna2ImageButton3.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton3.IndicateFocus = true;
-            this.guna2ImageButton3.Location = new System.Drawing.Point(1034, 65);
-            this.guna2ImageButton3.Name = "guna2ImageButton3";
-            this.guna2ImageButton3.PressedState.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton3.Size = new System.Drawing.Size(41, 37);
-            this.guna2ImageButton3.TabIndex = 12;
-            this.guna2ImageButton3.UseTransparentBackground = true;
-            // 
-            // guna2ImageButton2
-            // 
-            this.guna2ImageButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageButton2.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton2.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2ImageButton2.Image = global::CRUD.Properties.Resources.Captura_de_pantalla_2022_09_17_130818;
-            this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton2.ImageRotate = 0F;
-            this.guna2ImageButton2.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton2.IndicateFocus = true;
-            this.guna2ImageButton2.Location = new System.Drawing.Point(59, 65);
-            this.guna2ImageButton2.Name = "guna2ImageButton2";
-            this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton2.Size = new System.Drawing.Size(46, 47);
-            this.guna2ImageButton2.TabIndex = 11;
-            this.guna2ImageButton2.UseTransparentBackground = true;
-            this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.Image = global::CRUD.Properties.Resources.W_teramagofull;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(398, 28);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(267, 61);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox3.TabIndex = 15;
-            this.guna2PictureBox3.TabStop = false;
-            this.guna2PictureBox3.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(110)))), ((int)(((byte)(58)))));
-            this.guna2PictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2PictureBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(110)))), ((int)(((byte)(58)))));
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(0, 118);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(1087, 10);
-            this.guna2PictureBox2.TabIndex = 14;
-            this.guna2PictureBox2.TabStop = false;
-            // 
-            // guna2ImageButton1
-            // 
-            this.guna2ImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2ImageButton1.Image = global::CRUD.Properties.Resources.output_onlinepngtools__3_;
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton1.IndicateFocus = true;
-            this.guna2ImageButton1.Location = new System.Drawing.Point(12, 65);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(41, 37);
-            this.guna2ImageButton1.TabIndex = 7;
-            this.guna2ImageButton1.UseTransparentBackground = true;
-            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
-            // 
             // guna2Button1
             // 
             this.guna2Button1.Animated = true;
@@ -624,48 +625,53 @@
             this.guna2Button1.UseTransparentBackground = true;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2HtmlLabel1
+            // label1
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Bahnschrift SemiLight", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(12, 148);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(209, 24);
-            this.guna2HtmlLabel1.TabIndex = 18;
-            this.guna2HtmlLabel1.Text = "Información del Proyecto";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(8, 154);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(237, 24);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Información del Proyecto";
             // 
-            // guna2HtmlLabel2
+            // label2
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Bahnschrift SemiLight", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(325, 148);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(146, 24);
-            this.guna2HtmlLabel2.TabIndex = 49;
-            this.guna2HtmlLabel2.Text = "Estado de Cuenta";
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Black;
+            this.label2.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(321, 154);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(167, 24);
+            this.label2.TabIndex = 51;
+            this.label2.Text = "Estado de Cuenta";
             // 
-            // guna2HtmlLabel3
+            // label3
             // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Bahnschrift SemiLight", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(689, 148);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(242, 24);
-            this.guna2HtmlLabel3.TabIndex = 50;
-            this.guna2HtmlLabel3.Text = "Información Balance General ";
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Black;
+            this.label3.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(682, 154);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(273, 24);
+            this.label3.TabIndex = 52;
+            this.label3.Text = "Información Balance General";
             // 
             // dgvProyecto
             // 
             this.dgvProyecto.BackgroundColor = System.Drawing.Color.White;
             this.dgvProyecto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProyecto.GridColor = System.Drawing.Color.Black;
-            this.dgvProyecto.Location = new System.Drawing.Point(128, 617);
+            this.dgvProyecto.Location = new System.Drawing.Point(12, 608);
             this.dgvProyecto.Name = "dgvProyecto";
             this.dgvProyecto.RowHeadersWidth = 51;
             this.dgvProyecto.RowTemplate.Height = 24;
-            this.dgvProyecto.Size = new System.Drawing.Size(838, 65);
-            this.dgvProyecto.TabIndex = 51;
-            this.dgvProyecto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProyecto_CellContentClick);
+            this.dgvProyecto.Size = new System.Drawing.Size(1063, 74);
+            this.dgvProyecto.TabIndex = 53;
             // 
             // AgregarProyecto
             // 
@@ -673,9 +679,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1087, 694);
             this.Controls.Add(this.dgvProyecto);
-            this.Controls.Add(this.guna2HtmlLabel3);
-            this.Controls.Add(this.guna2HtmlLabel2);
-            this.Controls.Add(this.guna2HtmlLabel1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.Conceptobx);
             this.Controls.Add(this.Statusbx);
@@ -702,9 +708,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AgregarProyecto";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProyecto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -745,9 +751,9 @@
         private Guna.UI2.WinForms.Guna2TextBox Fraccionamientobx;
         private Guna.UI2.WinForms.Guna2TextBox Nombrebx;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvProyecto;
     }
 }

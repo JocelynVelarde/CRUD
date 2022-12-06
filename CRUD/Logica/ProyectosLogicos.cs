@@ -47,11 +47,10 @@ namespace CRUD.Logica
             {
                 //HACE LA CONSULTA EN LA TABLA USUARIOS CON LOS VALORES ESPECIFICADOS
                 conexion.Open();
-                string query = "insert into Ingreso(Id, FechaPago, Importe, Remision, Factura, MetodoPago, Descripcion, Status, Concepto, Nombre, Fraccionamiento, Direccion, PrecioVenta, Ingresos, Saldo) values (@id, @fechaPago, @importe, @remision, @factura, @metodoPago, @descripcion, @status, @concepto, @nombre, @fraccionamiento, @direccion, @precioVenta, @ingresos, @saldo)";
+                string query = "insert into Ingreso(FechaPago, Importe, Remision, Factura, MetodoPago, Descripcion, Status, Concepto, Nombre, Fraccionamiento, Direccion, PrecioVenta, Ingresos, Saldo) values (@fechaPago, @importe, @remision, @factura, @metodoPago, @descripcion, @status, @concepto, @nombre, @fraccionamiento, @direccion, @precioVenta, @ingresos, @saldo)";
 
                 //SE AGREGAN PARAMETROS POR CADA FILA
                 SQLiteCommand cmd = new SQLiteCommand(query, conexion);
-                cmd.Parameters.Add(new SQLiteParameter("@id", obj.Id));
                 cmd.Parameters.Add(new SQLiteParameter("@concepto", obj.Concepto));
                 cmd.Parameters.Add(new SQLiteParameter("@fechapago", obj.FechaPago));
                 cmd.Parameters.Add(new SQLiteParameter("@importe", obj.Importe));
@@ -89,7 +88,7 @@ namespace CRUD.Logica
             {
                 //HACE LA CONSULTA EN LA TABLA USUARIOS CON LOS VALORES ESPECIFICADOS
                 conexion.Open();
-                string query = "select Id, FechaPago, Importe, Remision, Factura, MetodoPago, Descripcion, Status, Concepto, Nombre, Fraccionamiento, Direccion, PrecioVenta, Ingresos, Saldo";
+                string query = "select Id, FechaPago, Importe, Remision, Factura, MetodoPago, Descripcion, Status, Concepto, Nombre, Fraccionamiento, Direccion, PrecioVenta, Ingresos, Saldo from Ingreso";
 
                 //SE AGREGAN PARAMETROS POR CADA FILA
                 SQLiteCommand cmd = new SQLiteCommand(query, conexion);
