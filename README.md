@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JocelynVelarde/Portal-Balance-General">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="Portal-Balance-General/CRUD/Resources/whiteTeramago (1).png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Portal Balance General</h3>
@@ -160,7 +160,7 @@ Project Link: [https://github.com/JocelynVelarde/Portal-Balance-General](https:/
 [license-url]: https://github.com/JocelynVelarde/Portal-Balance-General/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/JocelynVelarde
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: Portal-Balance-General/CRUD/Resources/whiteTeramago (1).png
 [Svelte.dev]: https://img.shields.io/badge/SQLite-%20%20-yellow
 [Svelte-url]: https://www.sqlite.org/index.html
 [JQuery.com]: https://img.shields.io/badge/C%23-%20-green
