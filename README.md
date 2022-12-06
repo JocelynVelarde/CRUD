@@ -152,23 +152,6 @@ Project Link: [https://github.com/JocelynVelarde/Portal-Balance-General](https:/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-## Acknowledgments
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/JocelynVelarde/Portal-Balance-General.svg?style=for-the-badge
@@ -198,7 +181,7 @@ Project Link: [https://github.com/JocelynVelarde/Portal-Balance-General](https:/
 [Laravel-url]: https://laravel.com
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery.com]: [https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white](https://img.shields.io/badge/C%23-%20-green)
 [JQuery-url]: https://jquery.com 
 
 
